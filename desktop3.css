@@ -1,0 +1,317 @@
+.contact-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 6;
+}
+.header {
+  padding-bottom: 20px
+}
+.retro-phone-flying {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 231px;
+  max-height: 100%;
+  width: 406px;
+  object-fit: cover;
+}
+.hero-child {
+  position: absolute;
+  top: 114px;
+  left: 222px;
+  width: 1165px;
+  height: 752px;
+  z-index: 2;
+}
+.exterior-icon,
+.letter-icon,
+.retro-phone-flying1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.exterior-icon,
+.letter-icon {
+  top: 435px;
+  left: 312px;
+  width: 75px;
+  height: 140px;
+  z-index: 3;
+}
+.exterior-icon {
+  top: 339px;
+  left: 303px;
+  width: 93px;
+  height: 108px;
+  mix-blend-mode: normal;
+  z-index: 4;
+}
+.phone-icon,
+.retro-phone-flying2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 5;
+}
+.phone-icon {
+  top: 583px;
+  left: 316px;
+  width: 91px;
+  height: 68px;
+  z-index: 6;
+}
+.letter-exterior {
+  position: absolute;
+  top: 73px;
+  left: 177px;
+  width: 460px;
+  height: 721px;
+}
+.hero,
+.retro-phone-flying-parent {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 831px;
+  height: 952px;
+}
+.hero {
+  width: 1387px;
+  height: 100%;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+}
+.feel-free-to {
+  margin: 0;
+}
+.feel-free-to-container {
+  color: rgba(0, 0, 0, 0.7);
+}
+.feel-free-to-container,
+.th-milestone-nh-container {
+  align-self: stretch;
+  position: relative;
+  z-index: 3;
+}
+.shrutikeshri121gmailcom {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.email-block {
+  width: 264px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 8px;
+  box-sizing: border-box;
+  font-size: var(--font-size-10xl);
+}
+.address-block,
+.email-block,
+.location {
+  display: flex;
+  align-items: flex-start;
+}
+.location {
+  width: 287px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.address-block {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 64px;
+  font-size: var(--text-medium-1-size);
+}
+.div3 {
+  top: -40px;
+  position: relative;
+  white-space: nowrap;
+  z-index: 7;
+  padding-bottom: 100px;
+}
+.spacing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl) 0 var(--padding-27xl);
+  font-size: var(--font-size-13xl);
+}
+.contact-info,
+.feel-free-to-contact-us-anytim-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feel-free-to-contact-us-anytim-parent {
+  align-self: stretch;
+  gap: 29px;
+}
+.contact-info {
+  width: 344px;
+  padding: var(--padding-24xl) 0 0;
+  box-sizing: border-box;
+  min-width: 344px;
+  max-width: 100%;
+}
+.first-name,
+.last-name,
+.e-mail {
+  width: 280px;
+  border: 0;
+  outline: 0;
+  font-family: var(--text-2);
+  font-size: var(--font-size-13xl);
+  background-color: var(--color-lightgray); /* Same as message box */
+  color: var(--color-gray-100);
+  text-align: left;
+  padding: 18px 26px; /* Adjust padding to create space inside the box */
+  box-shadow: 0 16px 32px -8px rgba(12, 12, 13, 0.4) inset; /* Same as message box */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  position: relative;
+  z-index: 3;
+}
+.name-input-boxes,
+.rta-logos1 {
+  background-color: var(--color-lightgray); /* Same as message box */
+  box-shadow: 0 16px 32px -8px rgba(12, 12, 13, 0.4) inset; /* Same as message box */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+.name-inputs {
+  align-self: stretch;
+  height: 74px;
+  position: relative;
+}
+.name-inputs1 {
+  align-self: stretch;
+  height: 65px;
+  position: relative;
+}
+.name-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  gap: 26px;
+}
+.email-field {
+  align-self: stretch;
+  height: 79px;
+  position: relative;
+}
+.message-field {
+  border: 0;
+  background-color: #d9d9d9;
+  height: 150px;
+  width: 380px;
+  outline: 0;
+  align-self: stretch;
+  box-shadow: 0 16px 32px -8px rgba(12, 12, 13, 0.4) inset;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-6xl);
+  box-sizing: border-box;
+  font-family: var(--text-2);
+  font-size: var(--font-size-13xl);
+  color: rgba(22, 18, 18, 0.4);
+  z-index: 3;
+}
+.submit-button-child {
+  height: 67px;
+  width: 309px;
+  position: relative;
+  display: none;
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--text-2);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 116px;
+  z-index: 4;
+}
+.submit-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-4xs)
+    var(--padding-2xl);
+  background-color: rgba(225, 148, 25, 0.66);
+  width: 250px;
+  align-self: start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.submit-button:hover {
+  background-color: rgba(173, 97, 0, 0.66);
+}
+.content1,
+.desktop-7,
+.form {
+  display: flex;
+  justify-content: flex-start;
+}
+.form {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 35px;
+  min-width: 252px;
+  max-width: 100%;
+}
+.content1,
+.desktop-7 {
+  align-items: flex-start;
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 67px;
+  max-width: 100%;
+  margin-top: -18px;
+  font-size: 28px;
+}
+.desktop-7 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 169px 115px 184px 527px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 55px;
+  color: var(--color-black);
+  font-family: var(--text-2);
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    display: none;
+  }
+}
